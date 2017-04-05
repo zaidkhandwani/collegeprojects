@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" style="background-color:#337AB7;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="color:white;">M.H. Saboo Siddik College of Engineering</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li></li>
+      <li><a href="#" style="color:white;">Electronics & Telecommunication</a></li>
+    </ul>
+  </div>
+</nav>
+  
+
+ <div class="row">
+ <div class="col-lg-5" style="padding-left: 2%;"><iframe width="100%" height="260" style="border: 0px solid #cccccc; padding-left: 2%;" src="https://thingspeak.com/channels/244439/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=MHSSCOE+Bridge+Monitoring+System&type=line&xaxis=Time"></iframe>
+ <div class="panel panel-primary" width="100%" >
+      <div class="panel-heading">Monitoring guidelines:</div>
+      <div class="panel-body">
+<p><span style="color:blue;">Y-axis:</span> Vibration (Callibrated from 0-500 to 0%-100%)</p>
+<p><span style="color:blue;">X-axis:</span>Time stamp </p>
+<p>Hover the mouse on Readings for more details</p>
+<p style="color:red;">The above Chart is Refreshed on an interval of 15 secs.</p>
+	</div>
+    </div>
+</div>
+  <div class="col-lg-7">
+<br>
+<br>
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+     
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="iotpic.jpg" alt="IoT" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="bridge2.jpg" alt="Bridge Monitoring" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="3.png" alt="Internet of Things" width="460" height="345">
+      </div>
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+  
+</div>
+ </div>
+ </div>
+ <br>
+<div class="row">
+<div style="padding-left: 2%;padding-right:2%">
+<div class="panel panel-primary">	                                                         
+      <div class="panel-heading">Developed By:  </div>
+      <div class="panel-body">
+	<p><b>Group No. :</b> write group number here </p>					  		<!-- Group Number-->
+                    <p><b>Roll Nos. :</b> write roll number here</p>					  		<!-- Roll Numbers-->
+	<p><b>Under the Guidance of :</b> write guide name here</p>					  		<!-- Under the Guidance of-->
+    </div>
+    </div>
+	</div>
+</div>
+
+</body>
+</html>
