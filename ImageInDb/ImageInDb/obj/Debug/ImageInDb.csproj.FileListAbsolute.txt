@@ -1,0 +1,9 @@
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\bin\Debug\ImageInDb.exe.config
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\bin\Debug\ImageInDb.exe
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\bin\Debug\ImageInDb.pdb
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\obj\Debug\ImageInDb.csprojResolveAssemblyReference.cache
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\obj\Debug\ImageInDb.Form1.resources
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\obj\Debug\ImageInDb.Properties.Resources.resources
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\obj\Debug\ImageInDb.csproj.GenerateResource.Cache
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\obj\Debug\ImageInDb.exe
+c:\users\89385821\documents\visual studio 2015\Projects\ImageInDb\ImageInDb\obj\Debug\ImageInDb.pdb
